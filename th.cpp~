@@ -1,0 +1,42 @@
+/*
+4
+2 1 3 4
+3
+
+SAMPLE OUTPUT
+
+3
+4
+
+*/
+#include<iostream>
+using namespace std;
+typedef struct node
+{
+int data;
+struct node * left,right;
+}node;
+public class th
+{
+public:
+node *root;
+th()
+{
+root=NULL;
+}
+void add(int n);
+
+
+}
+void th::add(int n)
+{
+}
+int main()
+{
+node * root=NULL;
+int n;
+cin>>n;
+th obj;
+obj.add(root,n);
+return 0;
+}

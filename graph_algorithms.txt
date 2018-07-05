@@ -1,0 +1,105 @@
+Graph Algorithms:
+
+1.Introduction, DFS and BFS:
+
+2.Graph and its representations
+
+3.Breadth First Traversal for a Graph
+
+4.Depth First Traversal for a Graph
+
+5.Applications of Depth First Search
+
+6.Detect Cycle in a Directed Graph
+
+7.Detect Cycle in a an Undirected Graph
+
+8.Detect cycle in an undirected graph
+
+9.Longest Path in a Directed Acyclic Graph
+
+10.Topological Sorting
+
+11.Check whether a given graph is Bipartite or not
+
+12.Snake and Ladder Problem
+
+13.Biconnected Components
+
+14.Check if a given graph is tree or not
+
+Minimum Spanning Tree:
+
+1.Prim’s Minimum Spanning Tree (MST))
+
+2. Applications of Minimum Spanning Tree Problem
+
+3.Prim’s MST for Adjacency List Representation
+
+4.Kruskal’s Minimum Spanning Tree Algorithm
+
+5.Boruvka’s algorithm for Minimum Spanning Tree
+
+Shortest Paths:
+
+1.Dijkstra’s shortest path algorithm
+
+2.Dijkstra’s Algorithm for Adjacency List Representation
+
+3.Bellman–Ford Algorithm
+
+4.Floyd Warshall Algorithm
+
+5.Johnson’s algorithm for All-pairs shortest paths
+
+6.Shortest Path in Directed Acyclic Graph
+
+7.Some interesting shortest path questions
+
+8.Shortest path with exactly k edges in a directed and weighted graph
+
+Connectivity:
+
+1.Find if there is a path between two vertices in a directed graph
+2.Connectivity in a directed graph
+3.Articulation Points (or Cut Vertices) in a Graph
+4.Biconnected graph
+5.Bridges in a graph
+6.Eulerian path and circuit
+7.Fleury’s Algorithm for printing Eulerian Path or Circuit
+8.Strongly Connected Components
+9.Transitive closure of a graph
+10.Find the number of islands
+11.Count all possible walks from a source to a destination with exactly k edges
+12.Euler Circuit in a Directed Graph
+13.Biconnected Components
+14.Tarjan’s Algorithm to find Strongly Connected Components
+
+Hard Problems:
+
+Graph Coloring (Introduction and Applications)
+Greedy Algorithm for Graph Coloring
+Travelling Salesman Problem (Naive and Dynamic Programming)
+Travelling Salesman Problem (Approximate using MST)
+Hamiltonian Cycle
+Vertex Cover Problem (Introduction and Approximate Algorithm)
+K Centers Problem (Greedy Approximate Algorithm)
+
+Maximum Flow:
+
+Ford-Fulkerson Algorithm for Maximum Flow Problem
+Find maximum number of edge disjoint paths between two vertices
+Find minimum s-t cut in a flow network
+Maximum Bipartite Matching
+Channel Assignment Problem
+
+Misc:
+
+Find if the strings can be chained to form a circle
+Given a sorted dictionary of an alien language, find order of characters
+Karger’s algorithm for Minimum Cut
+Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)
+Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)
+Hopcroft–Karp Algorithm for Maximum Matching | Set 2 (Implementation)
+Length of shortest chain to reach a target word
+Find same contacts in a list of contacts

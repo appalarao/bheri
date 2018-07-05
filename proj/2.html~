@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>User Deatails</h1>
+<form method="POST" name="contactform" action="insert.php"> 
+<p>
+<label for='sid'>Your Id:</label> <br>
+<input type="text" name="sid">
+</p>
+
+<p>
+<label for='name'>Your Name:</label> <br>
+<input type="text" name="name">
+</p>
+
+<p>
+<label for='marks'>marks:</label> <br>
+<input type="text" name="marks"> <br>
+</p>
+
+<p>
+<label for='cid'>course id:</label> <br>
+<input type="text" name="cid"> <br>
+</p>
+
+
+<input type="submit" value="Submit" onClick=""><br>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+Dynamic Programming:
+
+1.Overlapping Subproblems Property
+
+2.Optimal Substructure Property
+
+3.Longest Increasing Subsequence
+
+4.Longest Common Subsequence
+
+5.Edit Distance
+
+6.Min Cost Path
+
+7.Coin Change
+
+8.Matrix Chain Multiplication
+
+9.Binomial Coefficient
+
+10.0-1 Knapsack Problem
+
+11.Egg Dropping Puzzle
+
+12.Longest Palindromic Subsequence
+
+13.Cutting a Rod
+
+14.Maximum Sum Increasing Subsequence
+
+15.Longest Bitonic Subsequence
+
+16.Floyd Warshall Algorithm
+
+17.Palindrome Partitioning
+
+18.Partition problem
+
+19.Word Wrap Problem
+
+20.Maximum Length Chain of Pairs
+
+21.Variations of LIS
+
+22.Box Stacking Problem
+
+23.Program for Fibonacci numbers
+
+24.Minimum number of jumps to reach end
+
+25.Maximum size square sub-matrix with all 1s
+
+26.Ugly Numbers
+
+27.Largest Sum Contiguous Subarray
+
+28.Longest Palindromic Substring
+
+29.Bellman–Ford Algorithm for Shortest Paths
+
+30.Optimal Binary Search Tree
+
+31.Largest Independent Set Problem
+
+32.Subset Sum Problem
+
+33.Maximum sum rectangle in a 2D matrix
+
+34.Count number of binary strings without consecutive 1?s
+
+35.Boolean Parenthesization Problem
+
+36.Count ways to reach the n’th stair
+
+37.Minimum Cost Polygon Triangulation
+
+38.Mobile Numeric Keypad Problem
+
+39.Count of n digit numbers whose sum of digits equals to given sum
+
+40.Minimum Initial Points to Reach Destination
+
+41.Total number of non-decreasing numbers with n digits
+
+42.Find length of the longest consecutive path from a given starting character
+
+43.Tiling Problem
+
+44.Minimum number of squares whose sum equals to given number n
+
+45.Find minimum number of coins that make a given value
+
+46.Collect maximum points in a grid using two traversals
+
+47.Shortest Common Supersequence
+
+48.Compute sum of digits in all numbers from 1 to n
+
+49.Count possible ways to construct buildings
+
+50.Maximum profit by buying and selling a share at most twice
+
+51.How to print maximum number of A’s using given four keys
+
+52.Find the minimum cost to reach destination using a train
+
+53.Vertex Cover Problem | Set 2 (Dynamic Programming Solution for Tree)
+
+54.Count number of ways to reach a given score in a game
+
+55.Weighted Job Scheduling
+
+56.Longest Even Length Substring such that Sum of First and Second Half is same
+
+57.Recent Articles on Dynamic Programming
+
+58.Quiz on Dynamic Programming
+
+59.Coding Practice on Dynamic Programing

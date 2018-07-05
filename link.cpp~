@@ -1,0 +1,174 @@
+#include<iostream>
+using namespace std;
+typedef struct node
+{
+int data;
+struct node* next;
+}node;
+class Linklist
+{
+public:
+node * create(node *);
+void print(node *);
+node* reverse(node *);
+node *clist(node *);
+node * mid(node *);
+int palin(node *);
+};
+node * Linklist::create(node * lst)
+{
+int n,dat,i=0;
+node *temp;
+cout<<"enter number of nodes in the list \n";
+cin>>n;
+while(i<n)
+{
+cout<<"enter data item "<<i+1<<"\t";
+cin>>dat;
+temp=new node;
+temp->data=dat;
+temp->next=lst;
+lst=temp;
+i++;
+cout<<endl;
+}
+return lst;
+}
+node* Linklist::reverse(node * lst)
+{
+node * cur,*prev,*nxt;
+prev=NULL;
+cur=lst;
+while(cur)
+{
+nxt=cur->next;
+cur->next=prev;
+prev=cur;
+cur=nxt;
+}
+return prev;
+}
+void Linklist::print(node * lst)
+{
+while(lst)
+{
+cout<<lst->data<<"\t";
+lst=lst->next;
+}
+}
+
+int Linklist::palin(node * lst)
+{
+node *md,*st1,*st12,*st2,*prev,*cur,*nxt;
+int flag=1;
+md=mid(lst);
+st12=md->next;
+md->next=NULL;
+st1=lst;
+//st2=reverse(st12);
+st2=NULL;
+prev=NULL;
+cur=st12;
+while(cur)
+{
+nxt=cur->next;
+cur->next=prev;
+prev=cur;
+cur=nxt;
+
+}
+st2=prev;
+st1=lst;
+
+cout<<"list 1 is...."<<endl;
+print(st1);
+cout<<"list 2 is...."<<endl;
+print(st12);
+/*
+while(st1&&st2)
+{
+if(st1->data!=st2->data)
+{
+flag=0;
+break;
+}
+}
+*/
+return flag;
+}
+
+node * Linklist::clist(node * lst)
+{
+node *temp,*tail;
+tail=lst;
+int n,i=0,dat;
+cout<<"enter n ";
+cin>>n;
+while(i<n)
+{
+	i++;
+	cout<<"enter data \t";
+	cin>>dat;
+	temp=new node;
+	temp->data=dat;
+	temp->next=NULL;
+	if(lst==NULL)
+	{
+		lst=tail=temp;
+	}
+	else
+	{
+//lst->next=temp;
+	tail->next=temp;
+	tail=temp;
+	}
+}
+//cout<<"hello...\n";
+//cout<<"tail data is "<<tail->data<<"list data is "<<lst->data<<endl;
+tail->next=lst;
+return lst;
+}
+
+
+
+
+node * Linklist::mid(node * lst)
+{
+int val;
+node * slow,*fast;
+slow=lst;
+fast=lst->next;
+while(fast)
+{
+slow=slow->next;
+fast=fast->next->next;
+}
+return slow;
+}
+int main()
+{
+node * lst=NULL;
+//node * clst=NULL;
+Linklist obj;
+lst=obj.create(lst);
+//cout<<"before reverse"<<endl;
+obj.print(lst);
+//rlst=obj.reverse(lst);
+//cout<<"after reverse"<<endl;
+//obj.print(rlst);
+//int mid_node=obj.mid(lst);
+//cout<<"mid node of list is "<<mid_node<<endl;
+//clst=obj.clist(clst);
+//obj.print(clst);
+int isPal=obj.palin(lst);
+if(isPal)
+{
+cout<<"list is palindrome "<<endl;
+}
+else
+{
+cout<<"list is not palindrome "<<endl;
+}
+return 0;
+}
+

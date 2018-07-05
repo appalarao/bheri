@@ -1,0 +1,51 @@
+#include<iostream>
+using namespace std;
+
+typedef struct node
+{
+int sid;
+char sname;
+int marks;
+}node;
+class tab_stud
+{
+public:
+node a[5];
+void insert();
+void dis();
+};
+void tab_stud::insert()
+{
+int id,mks,i=0;
+char name;
+while(i<5)
+{
+i++;
+cin>>id>>name>>mks;
+a[i].sid=id;
+a[i].sname=name;
+a[i].marks=mks;
+}
+int rowid;
+node *ptr;
+ptr=a;
+for(i=0;i<5;i++)
+{
+cout<<"row id "<<i+1<<"is "<<ptr+i<<endl;
+}
+}
+void tab_stud::dis()
+{
+int i;
+for(i=0;i<5;i++)
+{
+cout<<"id -> "<<a[i].sid<<"\t name -> "<<a[i].sname<<"\t marks -> "<<a[i].marks<<endl;
+}
+}
+int main()
+{
+tab_stud obj;
+obj.insert();
+obj.dis();
+return 0;
+}
